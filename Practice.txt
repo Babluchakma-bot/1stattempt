@@ -1,0 +1,45 @@
+marks = float(input("Enter your mark: "))
+
+grades = {
+    80: "A+",
+    70: "A",
+    60: "A-",
+    50: "B"
+}
+
+for threshold, grade in grades.items():
+    if marks >= threshold:
+        print(grade)
+        break
+else:
+    print("Below average")
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+marks = float(input("Enter your mark:"))
+
+
+if marks >= 80:
+     print("You got A+. Congratulations")
+elif marks >= 70:
+    print("You got A")
+elif marks >=60:
+    print("You got A- ")
+elif marks >= 50:
+    print("Yoou got B ")
+else:
+    print("Below average")
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+count = int(input("enter number"))
+while count <=9:
+    print(count)
+    count = count + 1 
+
+.........................
+for x in range(1, 11):
+    print(5 * x)
+
+'''''''''''''''''''''''''''''''''
+def myname(name):
+    print("Hello", name)
+    
+myname("BABLU CHAKMA")

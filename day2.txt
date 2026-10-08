@@ -1,0 +1,17 @@
+Day-2
+
+
+information = int (input("Enter your secret number: "))
+
+def function (information):
+    print ("Here is your secret number = ", information)
+function (information)
+
+
+--------------------------------------------------
+fruits = ("Apple", "Orange", "Banana")
+
+for fruits in fruits:
+       print(fruits)
+
+----------------------------------------------------
